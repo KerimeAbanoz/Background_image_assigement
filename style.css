@@ -1,0 +1,50 @@
+* {
+    color: white;
+    margin: 0px;
+}
+
+header.header .bg {
+    background-image: url("./assets/img/tree.webp");
+    background-size: cover;
+    height: 100vh;
+}
+header.header .bg h1, p {
+    text-align: center;
+    font-size: 2rem;
+}
+header.header .bg h1 {
+    font-size: 3.5rem;
+    padding-top: 7%;
+}
+.button {
+    height: 20px;
+    width: 150px;
+    background-color: grey;
+    color: aliceblue;
+    border: 1px solid black;
+}
+.button1 {
+    position: fixed;
+    left: 30%;
+    bottom: 10%;
+    background-color: #EC3948;
+}
+.button1:hover {
+    border: 1rem solid #EC3948;
+}
+.button2:hover {
+    border: 1rem solid grey;
+}
+.button3:hover {
+    border: 1rem solid grey;
+}
+.button2 {
+    position: fixed;
+    left: 42%;
+    bottom: 10%;
+}
+.button3 {
+    position: fixed;
+    left: 54%;
+    bottom: 10%;
+}
