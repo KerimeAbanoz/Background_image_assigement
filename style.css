@@ -21,7 +21,7 @@ header.header .bg h1 {
     width: 150px;
     background-color: grey;
     color: aliceblue;
-    border: 1px solid black;
+    margin: 10px;
 }
 .button1 {
     position: fixed;
