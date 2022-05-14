@@ -17,34 +17,52 @@ header.header .bg h1 {
     padding-top: 7%;
 }
 .button {
-    height: 20px;
-    width: 150px;
-    background-color: grey;
-    color: aliceblue;
-    margin: 10px;
-}
-.button1 {
     position: fixed;
     left: 30%;
     bottom: 10%;
+    text-align: center;
+
+    /* width: 100%; */
+    
+    /* position: fixed; */
+    /* left:;
+    bottom: 10%; */
+}
+div.button .button1 {
     background-color: #EC3948;
+    border: 1px solid black;
+    /* width: 100px; */
+    padding: 3px 80px;
+    display: inline;
+    margin: 5px
 }
-.button1:hover {
+div.button .button2 {
+    background-color: grey;
+    border: 1px solid black;
+    /* width: 100px; */
+    padding: 3px 80px;
+    display: inline;
+    margin: 5px
+}
+div.button .button3 {
+    background-color: grey;
+    border: 1px solid black;
+    /* width: 100px; */
+    padding: 3px 80px;
+    display: inline;
+    margin: 5px
+}
+
+div.button .button1:hover {
+    background-color: #EC3948;
     border: 1rem solid #EC3948;
+    border-radius: 10px 0px;
 }
-.button2:hover {
+div.button .button2:hover {
     border: 1rem solid grey;
+    border-radius: 10px 0px;
 }
-.button3:hover {
+div.button .button3:hover {
     border: 1rem solid grey;
-}
-.button2 {
-    position: fixed;
-    left: 42%;
-    bottom: 10%;
-}
-.button3 {
-    position: fixed;
-    left: 54%;
-    bottom: 10%;
+    border-radius: 10px 0px;
 }
