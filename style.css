@@ -21,17 +21,10 @@ header.header .bg h1 {
     left: 30%;
     bottom: 10%;
     text-align: center;
-
-    /* width: 100%; */
-    
-    /* position: fixed; */
-    /* left:;
-    bottom: 10%; */
 }
 div.button .button1 {
-    background-color: #EC3948;
+    background-color: grey;
     border: 1px solid black;
-    /* width: 100px; */
     padding: 3px 80px;
     display: inline;
     margin: 5px
@@ -39,7 +32,6 @@ div.button .button1 {
 div.button .button2 {
     background-color: grey;
     border: 1px solid black;
-    /* width: 100px; */
     padding: 3px 80px;
     display: inline;
     margin: 5px
@@ -47,7 +39,6 @@ div.button .button2 {
 div.button .button3 {
     background-color: grey;
     border: 1px solid black;
-    /* width: 100px; */
     padding: 3px 80px;
     display: inline;
     margin: 5px
@@ -57,12 +48,17 @@ div.button .button1:hover {
     background-color: #EC3948;
     border: 1rem solid #EC3948;
     border-radius: 10px 0px;
+    box-shadow: 4px 4px 15px rgb(0, 140, 221);
 }
 div.button .button2:hover {
-    border: 1rem solid grey;
+    background-color: #EC3948;
+    border: 1rem solid #EC3948;
     border-radius: 10px 0px;
+    box-shadow: 4px 4px 15px rgb(0, 140, 221);
 }
 div.button .button3:hover {
-    border: 1rem solid grey;
+    background-color: #EC3948;
+    border: 1rem solid #EC3948;
     border-radius: 10px 0px;
+    box-shadow: 4px 4px 15px rgb(0, 140, 221);
 }
