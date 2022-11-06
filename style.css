@@ -1,64 +1,69 @@
 * {
-    color: white;
-    margin: 0px;
+  color: white;
+  margin: 0px;
 }
 
-header.header .bg {
-    background-image: url("./assets/img/tree.webp");
-    background-size: cover;
-    height: 100vh;
+container.container .bg {
+  background-image: url("./assets/img/tree.webp");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
 }
-header.header .bg h1, p {
-    text-align: center;
-    font-size: 2rem;
+container.container .bg h1,
+p {
+  text-align: center;
+  font-size: 2rem;
 }
-header.header .bg h1 {
-    font-size: 3.5rem;
-    padding-top: 7%;
+container.container .bg h1 {
+  font-size: 3.5rem;
+  padding-top: 7%;
 }
 .button {
-    position: fixed;
-    left: 30%;
-    bottom: 10%;
-    text-align: center;
+  width: 50px;
+  position: fixed;
+  left: 30%;
+  bottom: 10%;
+  text-align: center;
+  margin: auto;
 }
 div.button .button1 {
-    background-color: grey;
-    border: 1px solid black;
-    padding: 3px 80px;
-    display: inline;
-    margin: 5px
+  background-color: grey;
+  border: 1px solid black;
+  padding: 3px 80px;
+  display: inline;
+  margin: 5px;
 }
 div.button .button2 {
-    background-color: grey;
-    border: 1px solid black;
-    padding: 3px 80px;
-    display: inline;
-    margin: 5px
+  background-color: grey;
+  border: 1px solid black;
+  padding: 3px 80px;
+  display: inline;
+  margin: 5px;
 }
 div.button .button3 {
-    background-color: grey;
-    border: 1px solid black;
-    padding: 3px 80px;
-    display: inline;
-    margin: 5px
+  background-color: grey;
+  border: 1px solid black;
+  padding: 3px 80px;
+  display: inline;
+  margin: 5px;
 }
 
 div.button .button1:hover {
-    background-color: #EC3948;
-    border: 1rem solid #EC3948;
-    border-radius: 10px 0px;
-    box-shadow: 4px 4px 15px rgb(0, 140, 221);
+  background-color: #ec3948;
+  border: 0.1rem solid #ec3948;
+  border-radius: 50%;
+  box-shadow: 4px 4px 15px 5px rgb(254, 0, 47);
 }
 div.button .button2:hover {
-    background-color: #EC3948;
-    border: 1rem solid #EC3948;
-    border-radius: 10px 0px;
-    box-shadow: 4px 4px 15px rgb(0, 140, 221);
+  background-color: #ec3948;
+  border: 0.1rem solid #ec3948;
+  border-radius: 50%;
+  box-shadow: 4px 4px 15px 5px rgb(254, 0, 47);
 }
 div.button .button3:hover {
-    background-color: #EC3948;
-    border: 1rem solid #EC3948;
-    border-radius: 10px 0px;
-    box-shadow: 4px 4px 15px rgb(0, 140, 221);
+  background-color: #ec3948;
+  border: 0.1rem solid #ec3948;
+  border-radius: 50%;
+  box-shadow: 4px 4px 15px 5px rgb(254, 0, 47);
 }
