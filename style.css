@@ -1,6 +1,10 @@
 * {
   color: white;
   margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
 }
 
 container.container .bg {
@@ -20,10 +24,11 @@ container.container .bg h1 {
   padding-top: 7%;
 }
 .button {
-  width: 50px;
-  position: fixed;
+  /* width: 50px; */
+  /* position: fixed;
   left: 30%;
-  bottom: 10%;
+  bottom: 10%;  */
+  padding-top: 70vh;
   text-align: center;
   margin: auto;
 }
